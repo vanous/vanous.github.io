@@ -1745,7 +1745,7 @@ var data_full=`{
                     },
                     "Indien Pz": {
                         "file": "Indien_Pz.mali.png",
-                        "params": ""
+                        "params": "flip"
                     },
                     "Indien Pz NM": {
                         "file": "Indien_Pz_NM.mali.png",
