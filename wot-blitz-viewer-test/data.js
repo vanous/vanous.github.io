@@ -40,10 +40,8 @@ var data=`{
         ],
         "Conqueror": [
             "Christmas1",
-            "Conqueror2",
             "Christmas2",
             "T-34-85 chassis 01 AM",
-            "Conquerorbup",
             "Anime Itasensha Conqueror",
             "Default"
         ],
@@ -56,6 +54,7 @@ var data=`{
             "Default"
         ],
         "Ferdinand": [
+            "Default",
             "Ferdinand CM",
             "GuP Ferdinand",
             "Default",
@@ -96,8 +95,8 @@ var data=`{
             "IS-3 skin"
         ],
         "Indien Panzer": [
-            "Anime Itasensha Indien Pz",
             "Indien Pz",
+            "Anime Itasensha Indien Pz",
             "Indien Panzer CM"
         ],
         "JagdPanther": [
@@ -106,10 +105,11 @@ var data=`{
             "GuP JagdPanther"
         ],
         "JagdPzIV": [
-            "GuP JagdPzIV",
-            "Default"
+            "Default",
+            "GuP JagdPzIV"
         ],
         "JagdTiger": [
+            "Default",
             "GuP JagdTiger",
             "Anime Itasensha JagdTiger",
             "Default",
@@ -141,7 +141,6 @@ var data=`{
         "M4A3E8 Sherman": [
             "M4A3E8 Sherman CM",
             "M4A3E8 sherman skin",
-            "GuP Sherman Firefly",
             "M4A3E8 sherman"
         ],
         "Matilda": [
@@ -150,6 +149,7 @@ var data=`{
         ],
         "Maus": [
             "Anime Itasensha Maus",
+            "Default",
             "GuP Maus",
             "Default"
         ],
@@ -171,6 +171,7 @@ var data=`{
             "PzVI Tiger Gamescom event"
         ],
         "PzVI Tiger P": [
+            "Default",
             "Default",
             "GuP PzVI Tiger P"
         ],
@@ -209,8 +210,7 @@ var data=`{
             "GuP T95 crash"
         ],
         "Tetrarch LL": [
-            "Default",
-            "Tetrarch LL tarck"
+            "Default"
         ],
         "Tiger I GuP": [
             "Default"
@@ -218,9 +218,7 @@ var data=`{
         "Type62": [
             "Type62 dragon",
             "Type62 dragon gold",
-            "Default",
-            "T-62A skin",
-            "T-62A"
+            "Default"
         ],
         "Van Helsing": [
             "Default"
@@ -1042,14 +1040,6 @@ var data_full=`{
                         "file": "Christmas2_repeat.mali.png",
                         "params": "repeat"
                     },
-                    "Conqueror2": {
-                        "file": "Conqueror2.png",
-                        "params": ""
-                    },
-                    "Conquerorbup": {
-                        "file": "Conqueror.pngbup",
-                        "params": ""
-                    },
                     "Default": {
                         "file": "Conqueror.png",
                         "params": ""
@@ -1793,8 +1783,8 @@ var data_full=`{
                         "params": ""
                     },
                     "Indien Pz": {
-                        "file": "Indien_Pz.mali.png",
-                        "params": ""
+                        "file": "Indien_Pz_flip.mali.png",
+                        "params": "flip"
                     },
                     "mask": {
                         "file": "Indien_Pz_NM.mali.png",
@@ -1863,8 +1853,8 @@ var data_full=`{
                         "params": ""
                     },
                     "Default": {
-                        "file": "JagdPanther.mali.png",
-                        "params": ""
+                        "file": "JagdPanther_flip.mali.png",
+                        "params": "flip"
                     },
                     "GuP JagdPanther": {
                         "file": "GuP_JagdPanther.mali.png",
@@ -1937,12 +1927,12 @@ var data_full=`{
                 ],
                 "textures": {
                     "Default": {
-                        "file": "JagdPzIV.mali.png",
-                        "params": ""
+                        "file": "JagdPzIV_flip.mali.png",
+                        "params": "flip"
                     },
                     "GuP JagdPzIV": {
-                        "file": "GuP_JagdPzIV_flip.mali.png",
-                        "params": "flip"
+                        "file": "GuP_JagdPzIV.mali.png",
+                        "params": ""
                     },
                     "mask": {
                         "file": "JagdPzIV_NM.mali.png",
@@ -2482,10 +2472,6 @@ var data_full=`{
                     "1_chassis_wheel_L_08_batch_0.obj"
                 ],
                 "textures": {
-                    "GuP Sherman Firefly": {
-                        "file": "GuP_Sherman_Firefly.mali.png",
-                        "params": ""
-                    },
                     "M4A3E8 Sherman CM": {
                         "file": "M4A3E8_Sherman_CM.mali.png",
                         "params": ""
@@ -2717,8 +2703,8 @@ var data_full=`{
                 ],
                 "textures": {
                     "Default": {
-                        "file": "Pz_II_AusfG.mali.png",
-                        "params": ""
+                        "file": "Pz_II_AusfG_flip.mali.png",
+                        "params": "flip"
                     },
                     "mask": {
                         "file": "Pz_II_AusfG_NM.mali.png",
@@ -2800,8 +2786,8 @@ var data_full=`{
                 ],
                 "textures": {
                     "Default": {
-                        "file": "Pz_IV_AusfD.mali.png",
-                        "params": ""
+                        "file": "Pz_IV_AusfD_flip.mali.png",
+                        "params": "flip"
                     },
                     "GuP Pz IV AusfD": {
                         "file": "GuP_Pz_IV_AusfD.mali.png",
@@ -2860,8 +2846,8 @@ var data_full=`{
                 ],
                 "textures": {
                     "Default": {
-                        "file": "PzII_J_flip.mali.png",
-                        "params": "flip"
+                        "file": "PzII_J.mali.png",
+                        "params": ""
                     },
                     "PzII J CM": {
                         "file": "PzII_J_CM.mali.png",
@@ -3680,10 +3666,6 @@ var data_full=`{
                         "file": "Tetrarch_LL.mali.png",
                         "params": ""
                     },
-                    "Tetrarch LL tarck": {
-                        "file": "Tetrarch_LL_tarck.mali.png",
-                        "params": ""
-                    },
                     "mask": {
                         "file": "Tetrarch_LL_NM.mali.png",
                         "params": ""
@@ -3707,7 +3689,9 @@ var data_full=`{
                     "1_HP_Track_RRear_batch_0.obj",
                     "1_HP_Track_LFront_batch_0.obj"
                 ],
-                "textures": {}
+                "textures": {
+                    "default": "Tetrarch_LL_track.mali.png"
+                }
             }
         },
         "Tiger I GuP": {
@@ -3800,14 +3784,6 @@ var data_full=`{
                 "textures": {
                     "Default": {
                         "file": "Type62.mali.png",
-                        "params": ""
-                    },
-                    "T-62A": {
-                        "file": "T-62A.mali.png",
-                        "params": ""
-                    },
-                    "T-62A skin": {
-                        "file": "T-62A_skin.mali.png",
                         "params": ""
                     },
                     "Type62 dragon": {
