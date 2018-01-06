@@ -1983,6 +1983,7 @@ var data_full=`{
         "JagdTiger": {
             "head": {
                 "mesh": [
+                    "1_HP_gui_batch_0.obj",
                     "1_chassis_wheel_R_05_batch_0.obj",
                     "1_chassis_wheel_L_04_batch_0.obj",
                     "1_hull_batch_0.obj",
