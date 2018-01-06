@@ -229,6 +229,7 @@ var data=`{
         ]
     },
     "Tanks": [
+        "",
         "Maus",
         "Hetzer",
         "KV2",
@@ -337,6 +338,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "A-20",
             "path_meshes": "A-20.sc2_meshes/",
             "path_textures": "A-20.sc2_textures/",
             "tracks": {
@@ -420,6 +422,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "AMX 50 100",
             "path_meshes": "AMX_50_100.sc2_meshes/",
             "path_textures": "AMX_50_100.sc2_textures/",
             "tracks": {
@@ -491,6 +494,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "AMX Dracula",
             "path_meshes": "AMX_Dracula.sc2_meshes/",
             "path_textures": "AMX_Dracula.sc2_textures/",
             "tracks": {
@@ -549,6 +553,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "BT 7A",
             "path_meshes": "BT_7A.sc2_meshes/",
             "path_textures": "BT_7A.sc2_textures/",
             "tracks": {
@@ -639,6 +644,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "Centurion",
             "path_meshes": "Centurion.sc2_meshes/",
             "path_textures": "Centurion.sc2_textures/",
             "tracks": {
@@ -721,6 +727,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "Chi Ha",
             "path_meshes": "Chi_Ha.sc2_meshes/",
             "path_textures": "Chi_Ha.sc2_textures/",
             "tracks": {
@@ -799,6 +806,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "Chi Nu",
             "path_meshes": "Chi_Nu.sc2_meshes/",
             "path_textures": "Chi_Nu.sc2_textures/",
             "tracks": {
@@ -887,6 +895,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "Churchill VII",
             "path_meshes": "Churchill_VII.sc2_meshes/",
             "path_textures": "Churchill_VII.sc2_textures/",
             "tracks": {
@@ -965,6 +974,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "Comet",
             "path_meshes": "Comet.sc2_meshes/",
             "path_textures": "Comet.sc2_textures/",
             "tracks": {
@@ -1054,6 +1064,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "Conqueror",
             "path_meshes": "Conqueror.sc2_meshes/",
             "path_textures": "Conqueror.sc2_textures/",
             "tracks": {
@@ -1126,6 +1137,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "Crusader",
             "path_meshes": "Crusader.sc2_meshes/",
             "path_textures": "Crusader.sc2_textures/",
             "tracks": {
@@ -1201,6 +1213,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "DickerMax",
             "path_meshes": "DickerMax.sc2_meshes/",
             "path_textures": "DickerMax.sc2_textures/",
             "tracks": {
@@ -1273,6 +1286,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "Ferdinand",
             "path_meshes": "Ferdinand.sc2_meshes/",
             "path_textures": "Ferdinand.sc2_textures/",
             "tracks": {
@@ -1346,6 +1360,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "Grille 15 L63",
             "path_meshes": "Grille_15_L63.sc2_meshes/",
             "path_textures": "Grille_15_L63.sc2_textures/",
             "tracks": {
@@ -1418,6 +1433,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "Ha Go",
             "path_meshes": "Ha_Go.sc2_meshes/",
             "path_textures": "Ha_Go.sc2_textures/",
             "tracks": {
@@ -1485,6 +1501,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "Hetzer",
             "path_meshes": "Hetzer.sc2_meshes/",
             "path_textures": "Hetzer.sc2_textures/",
             "tracks": {
@@ -1559,6 +1576,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "IS",
             "path_meshes": "IS.sc2_meshes/",
             "path_textures": "IS.sc2_textures/",
             "tracks": {
@@ -1630,6 +1648,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "IS 2 Berlin",
             "path_meshes": "IS_2_Berlin.sc2_meshes/",
             "path_textures": "IS_2_Berlin.sc2_textures/",
             "tracks": {
@@ -1724,6 +1743,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "IS-3",
             "path_meshes": "IS-3.sc2_meshes/",
             "path_textures": "IS-3.sc2_textures/",
             "tracks": {
@@ -1792,6 +1812,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "Indien Panzer",
             "path_meshes": "Indien_Panzer.sc2_meshes/",
             "path_textures": "Indien_Panzer.sc2_textures/",
             "tracks": {
@@ -1866,6 +1887,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "JagdPanther",
             "path_meshes": "JagdPanther.sc2_meshes/",
             "path_textures": "JagdPanther.sc2_textures/",
             "tracks": {
@@ -1940,6 +1962,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "JagdPzIV",
             "path_meshes": "JagdPzIV.sc2_meshes/",
             "path_textures": "JagdPzIV.sc2_textures/",
             "tracks": {
@@ -2014,6 +2037,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "JagdTiger",
             "path_meshes": "JagdTiger.sc2_meshes/",
             "path_textures": "JagdTiger.sc2_textures/",
             "tracks": {
@@ -2093,6 +2117,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "KV2",
             "path_meshes": "KV2.sc2_meshes/",
             "path_textures": "KV2.sc2_textures/",
             "tracks": {
@@ -2163,6 +2188,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "M24 Chaffee",
             "path_meshes": "M24_Chaffee.sc2_meshes/",
             "path_textures": "M24_Chaffee.sc2_textures/",
             "tracks": {
@@ -2263,6 +2289,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "M26 Pershing",
             "path_meshes": "M26_Pershing.sc2_meshes/",
             "path_textures": "M26_Pershing.sc2_textures/",
             "tracks": {
@@ -2330,6 +2357,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "M3 Lee",
             "path_meshes": "M3_Lee.sc2_meshes/",
             "path_textures": "M3_Lee.sc2_textures/",
             "tracks": {
@@ -2404,6 +2432,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "M4 Sherman",
             "path_meshes": "M4_Sherman.sc2_meshes/",
             "path_textures": "M4_Sherman.sc2_textures/",
             "tracks": {
@@ -2490,6 +2519,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "M4A3E8 Sherman",
             "path_meshes": "M4A3E8_Sherman.sc2_meshes/",
             "path_textures": "M4A3E8_Sherman.sc2_textures/",
             "tracks": {
@@ -2567,6 +2597,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "Matilda",
             "path_meshes": "Matilda.sc2_meshes/",
             "path_textures": "Matilda.sc2_textures/",
             "tracks": {
@@ -2646,6 +2677,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "Maus",
             "path_meshes": "Maus.sc2_meshes/",
             "path_textures": "Maus.sc2_textures/",
             "tracks": {
@@ -2712,6 +2744,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "Pz II AusfG",
             "path_meshes": "Pz_II_AusfG.sc2_meshes/",
             "path_textures": "Pz_II_AusfG.sc2_textures/",
             "tracks": {
@@ -2799,6 +2832,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "Pz IV AusfD",
             "path_meshes": "Pz_IV_AusfD.sc2_meshes/",
             "path_textures": "Pz_IV_AusfD.sc2_textures/",
             "tracks": {
@@ -2859,6 +2893,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "PzII J",
             "path_meshes": "PzII_J.sc2_meshes/",
             "path_textures": "PzII_J.sc2_textures/",
             "tracks": {
@@ -2942,6 +2977,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "PzVI Tiger I",
             "path_meshes": "PzVI_Tiger_I.sc2_meshes/",
             "path_textures": "PzVI_Tiger_I.sc2_textures/",
             "tracks": {
@@ -3010,6 +3046,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "PzVI Tiger P",
             "path_meshes": "PzVI_Tiger_P.sc2_meshes/",
             "path_textures": "PzVI_Tiger_P.sc2_textures/",
             "tracks": {
@@ -3092,6 +3129,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "PzVIB Tiger II",
             "path_meshes": "PzVIB_Tiger_II.sc2_meshes/",
             "path_textures": "PzVIB_Tiger_II.sc2_textures/",
             "tracks": {
@@ -3180,6 +3218,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "RenaultFT",
             "path_meshes": "RenaultFT.sc2_meshes/",
             "path_textures": "RenaultFT.sc2_textures/",
             "tracks": {
@@ -3253,6 +3292,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "Stug III",
             "path_meshes": "Stug_III.sc2_meshes/",
             "path_textures": "Stug_III.sc2_textures/",
             "tracks": {
@@ -3343,6 +3383,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "T-28",
             "path_meshes": "T-28.sc2_meshes/",
             "path_textures": "T-28.sc2_textures/",
             "tracks": {
@@ -3419,6 +3460,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "T-34",
             "path_meshes": "T-34.sc2_meshes/",
             "path_textures": "T-34.sc2_textures/",
             "tracks": {
@@ -3489,6 +3531,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "T-34-85",
             "path_meshes": "T-34-85.sc2_meshes/",
             "path_textures": "T-34-85.sc2_textures/",
             "tracks": {
@@ -3546,6 +3589,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "T-34-85 Victory",
             "path_meshes": "T-34-85_Victory.sc2_meshes/",
             "path_textures": "T-34-85_Victory.sc2_textures/",
             "tracks": {
@@ -3623,6 +3667,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "T95",
             "path_meshes": "T95.sc2_meshes/",
             "path_textures": "T95.sc2_textures/",
             "tracks": {
@@ -3672,6 +3717,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "Tetrarch LL",
             "path_meshes": "Tetrarch_LL.sc2_meshes/",
             "path_textures": "Tetrarch_LL.sc2_textures/",
             "tracks": {
@@ -3735,6 +3781,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "Tiger I GuP",
             "path_meshes": "Tiger_I_GuP.sc2_meshes/",
             "path_textures": "Tiger_I_GuP.sc2_textures/",
             "tracks": {
@@ -3800,6 +3847,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "Type62",
             "path_meshes": "Type62.sc2_meshes/",
             "path_textures": "Type62.sc2_textures/",
             "tracks": {
@@ -3870,6 +3918,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "Van Helsing",
             "path_meshes": "Van_Helsing.sc2_meshes/",
             "path_textures": "Van_Helsing.sc2_textures/",
             "tracks": {
@@ -3943,6 +3992,7 @@ var data_full=`{
                     }
                 }
             },
+            "name": "WZ-111",
             "path_meshes": "WZ-111.sc2_meshes/",
             "path_textures": "WZ-111.sc2_textures/",
             "tracks": {

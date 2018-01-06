@@ -6,7 +6,7 @@ import json
 path="./"
 dirs = [str(item) for item in Path(path).iterdir() if item.is_dir()]
 
-data={"Skins":{},"Tanks":[]}
+data={"Skins":{},"Tanks":[""]}
 data_full={"Tanks":{}}
 
 for d in dirs:
@@ -19,7 +19,7 @@ for d in dirs:
             data["Skins"][tank_name]=[]
 
         if tank_name not in data_full["Tanks"]:
-            data_full["Tanks"][tank_name]={"head":{"mesh":[],"textures":{}},"tracks":{"mesh":[],"textures":{}}}
+            data_full["Tanks"][tank_name]={"head":{"mesh":[],"textures":{}},"tracks":{"mesh":[],"textures":{}},"name":tank_name}
         if "texture" in d:
             data_full["Tanks"][tank_name]["path_textures"]=d + "/"
         elif "mesh" in d:
