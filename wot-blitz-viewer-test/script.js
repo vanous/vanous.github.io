@@ -3,7 +3,9 @@
 //./PVRTexToolCLI -i T-34-85_chassis_01_AM.mali.pvr -d -f RGBG8888
 //for i in `ls`; do ../PVRTexToolCLI -i $i -d -f RGBG8888; done
 //https://cdnjs.cloudflare.com/ajax/libs/three.js/89/three.min.js
-//
+//http://keyvalue.immanuel.co/
+//https://keyvalue.immanuel.co/api/KeyVal/GetValue/zu1czm0z/camo
+//https://keyvalue.immanuel.co/api/KeyVal/GetValue/zu1czm0z/tank
 var scene = new THREE.Scene();
 
 var camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
@@ -48,6 +50,7 @@ scene.add(backLight);
 
 
 head_elements = [];
+track_elements = [];
 
 function head_texture(textr) {
     hit("camo");
@@ -127,6 +130,7 @@ function head(_file) {
 
             //object.position.y -= 60;
         });
+        //var controls = new THREE.OrbitControls(camera, renderer.domElement);
         scene.add(object);
     });
 };
@@ -139,6 +143,7 @@ function tracks(_file) {
         object.traverse(function(child) {
             if (child instanceof THREE.Mesh) {
                 child.material.map = texture_tracks;
+                track_elements.push(child)
             }
             //object.position.y -= 60;
         });
@@ -146,8 +151,9 @@ function tracks(_file) {
     });
 };
 
+function hit(){}
 
-function hit(key){
+function ahit(key){
 
 var oReq = new XMLHttpRequest();  
 oReq.open("GET", "https://keyvalue.immanuel.co/api/KeyVal/GetValue/zu1czm0z/"+key, true);  
@@ -234,12 +240,17 @@ function add_tank() {
 
     track_texture(selected_tank.tracks.textures.default);
 
-
     selected_tank.tracks.mesh.forEach(function(entry) {
         //console.log("track obj: ", entry);
         tracks(entry);
     });
+    dragControls = new THREE.DragControls(head_elements, camera, renderer.domElement );
+    dragControls.addEventListener( 'dragstart', function ( event ) { controls.enabled = false; } );
+    dragControls.addEventListener( 'dragend', function ( event ) { controls.enabled = true; } );
 
+    dragControls2 = new THREE.DragControls(track_elements, camera, renderer.domElement );
+    dragControls2.addEventListener( 'dragstart', function ( event ) { controls.enabled = false; } );
+    dragControls2.addEventListener( 'dragend', function ( event ) { controls.enabled = true; } );
 };
 
 //head_texture(selected_tank.head.textures.Default);
@@ -327,8 +338,6 @@ if (selected_tank.head.textures.hasOwnProperty(c)) {
 head_texture(textr);
 //selected_tank=json_full.Tanks["Dicker Max"];
 add_tank();
-
-
 
 
 var animate = function() {
