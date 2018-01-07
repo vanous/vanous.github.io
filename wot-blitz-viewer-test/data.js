@@ -39,7 +39,6 @@ var data=`{
         "Conqueror": [
             "Christmas1",
             "Christmas2",
-            "T-34-85 chassis 01 AM",
             "Anime Itasensha Conqueror",
             "Default"
         ],
@@ -1034,10 +1033,6 @@ var data_full=`{
                     },
                     "Default": {
                         "file": "Conqueror.png",
-                        "params": ""
-                    },
-                    "T-34-85 chassis 01 AM": {
-                        "file": "T-34-85_chassis_01_AM.mali.png",
                         "params": ""
                     },
                     "mask": {
