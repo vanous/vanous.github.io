@@ -1,15 +1,13 @@
 var data=`{
     "Skins": {
         "A-20": [
-            "A-20 mtr",
-            "A-20 CM"
+            "A-20 mtr"
         ],
         "AMX 50 100": [
             "Anime Itasensha AMX 50 100",
             "Default"
         ],
         "AMX Dracula": [
-            "AMX Dracula CM",
             "Default",
             "AMX Dracula Skinned"
         ],
@@ -50,18 +48,15 @@ var data=`{
             "Default"
         ],
         "DickerMax": [
-            "DickerMax CM",
             "Default"
         ],
         "Ferdinand": [
             "Default",
-            "Ferdinand CM",
             "GuP Ferdinand",
             "Default",
             "Anime Itasensha Ferdinand"
         ],
         "Grille 15 L63": [
-            "Grille 15 L63 CM",
             "Grille 15 skin",
             "Anime Itasensha Grille 15 L63 D",
             "Grille 15 L63 D"
@@ -86,7 +81,6 @@ var data=`{
             "GuP IS-2"
         ],
         "IS-3": [
-            "IS-3 turret 02 CM",
             "IS-3 turret 02",
             "IS-3 turret 02 skin",
             "Default",
@@ -96,8 +90,7 @@ var data=`{
         ],
         "Indien Panzer": [
             "Indien Pz",
-            "Anime Itasensha Indien Pz",
-            "Indien Panzer CM"
+            "Anime Itasensha Indien Pz"
         ],
         "JagdPanther": [
             "Default",
@@ -139,7 +132,6 @@ var data=`{
             "Default"
         ],
         "M4A3E8 Sherman": [
-            "M4A3E8 Sherman CM",
             "M4A3E8 sherman skin",
             "M4A3E8 sherman"
         ],
@@ -161,8 +153,7 @@ var data=`{
             "Default"
         ],
         "PzII J": [
-            "Default",
-            "PzII J CM"
+            "Default"
         ],
         "PzVI Tiger I": [
             "PzVI tiger I",
@@ -323,10 +314,6 @@ var data_full=`{
                     "1_gun_07_batch_1.obj"
                 ],
                 "textures": {
-                    "A-20 CM": {
-                        "file": "A-20_CM.mali.png",
-                        "params": ""
-                    },
                     "A-20 mtr": {
                         "file": "A-20_mtr.mali.png",
                         "params": ""
@@ -475,10 +462,6 @@ var data_full=`{
                     "1_chassis_wheel_L_08_batch_0.obj"
                 ],
                 "textures": {
-                    "AMX Dracula CM": {
-                        "file": "AMX_Dracula_CM.mali.png",
-                        "params": ""
-                    },
                     "AMX Dracula Skinned": {
                         "file": "AMX_Dracula_Skinned.mali.png",
                         "params": ""
@@ -1202,10 +1185,6 @@ var data_full=`{
                         "file": "DickerMax_flip.mali.png",
                         "params": "flip"
                     },
-                    "DickerMax CM": {
-                        "file": "DickerMax_CM.mali.png",
-                        "params": ""
-                    },
                     "mask": {
                         "file": "DickerMax_NM.mali.png",
                         "params": ""
@@ -1271,10 +1250,6 @@ var data_full=`{
                         "file": "Ferdinand_flip.mali.png",
                         "params": "flip"
                     },
-                    "Ferdinand CM": {
-                        "file": "Ferdinand_CM.mali.png",
-                        "params": ""
-                    },
                     "GuP Ferdinand": {
                         "file": "GuP_Ferdinand.mali.png",
                         "params": ""
@@ -1339,10 +1314,6 @@ var data_full=`{
                 "textures": {
                     "Anime Itasensha Grille 15 L63 D": {
                         "file": "Anime_Itasensha_Grille_15_L63_D.mali.png",
-                        "params": ""
-                    },
-                    "Grille 15 L63 CM": {
-                        "file": "Grille_15_L63_CM.mali.png",
                         "params": ""
                     },
                     "Grille 15 L63 D": {
@@ -1728,10 +1699,6 @@ var data_full=`{
                         "file": "IS-3_turret_02.mali.png",
                         "params": ""
                     },
-                    "IS-3 turret 02 CM": {
-                        "file": "IS-3_turret_02_CM.mali.png",
-                        "params": ""
-                    },
                     "IS-3 turret 02 skin": {
                         "file": "IS-3_turret_02_skin.mali.png",
                         "params": ""
@@ -1795,10 +1762,6 @@ var data_full=`{
                 "textures": {
                     "Anime Itasensha Indien Pz": {
                         "file": "Anime_Itasensha_Indien_Pz.mali.png",
-                        "params": ""
-                    },
-                    "Indien Panzer CM": {
-                        "file": "Indien_Panzer_CM.mali.png",
                         "params": ""
                     },
                     "Indien Pz": {
@@ -1902,7 +1865,9 @@ var data_full=`{
                     "1_HP_Track_RRear_batch_0.obj",
                     "1_HP_Track_LFront_batch_0.obj"
                 ],
-                "textures": {}
+                "textures": {
+                    "default": "IS-3_auto_track.mali.png"
+                }
             }
         },
         "JagdPzIV": {
@@ -1983,7 +1948,6 @@ var data_full=`{
         "JagdTiger": {
             "head": {
                 "mesh": [
-                    "1_HP_gui_batch_0.obj",
                     "1_chassis_wheel_R_05_batch_0.obj",
                     "1_chassis_wheel_L_04_batch_0.obj",
                     "1_hull_batch_0.obj",
@@ -2501,10 +2465,6 @@ var data_full=`{
                     "1_chassis_wheel_L_08_batch_0.obj"
                 ],
                 "textures": {
-                    "M4A3E8 Sherman CM": {
-                        "file": "M4A3E8_Sherman_CM.mali.png",
-                        "params": ""
-                    },
                     "M4A3E8 sherman": {
                         "file": "M4A3E8_sherman.mali.png",
                         "params": ""
@@ -2881,10 +2841,6 @@ var data_full=`{
                 "textures": {
                     "Default": {
                         "file": "PzII_J.mali.png",
-                        "params": ""
-                    },
-                    "PzII J CM": {
-                        "file": "PzII_J_CM.mali.png",
                         "params": ""
                     },
                     "mask": {

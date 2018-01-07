@@ -118,6 +118,7 @@ loader.load(_file, function ( object ) {
   object.traverse( function ( child ) {
     if ( child instanceof THREE.Mesh ) {
         if (typeof texture_head !== 'undefined'){
+      child.material=material;
       child.material.map = texture_head;
         }
     }
