@@ -50,6 +50,7 @@ scene.add(backLight);
 head_elements = [];
 
 function head_texture(textr) {
+    hit("camo");
     //obj.Wireframe = false;
     var loader = new THREE.ImageLoader();
     loader.setPath(selected_tank.path_textures);
@@ -146,6 +147,28 @@ function tracks(_file) {
 };
 
 
+function hit(key){
+
+var oReq = new XMLHttpRequest();  
+oReq.open("GET", "https://keyvalue.immanuel.co/api/KeyVal/GetValue/zu1czm0z/"+key, true);  
+oReq.onreadystatechange = function (oEvent) {  
+  if (oReq.readyState === 4) {  
+    if (oReq.status === 200) {  
+        hits=Number(JSON.parse(oReq.responseText));
+        hits=hits+1;
+        var hR = new XMLHttpRequest();
+        hR.open("POST", "https://keyvalue.immanuel.co/api/KeyVal/UpdateValue/zu1czm0z/" + key + "/" + hits, true);
+        hR.send();
+
+    } else {  
+      console.log("Error", oReq.statusText);  
+    }  
+  }  
+};  
+oReq.send(null); 
+
+}
+
 
 obj = {};
 obj.sampleNumber = 1;
@@ -202,7 +225,7 @@ function clearScene() {
 
 
 function add_tank() {
-
+    hit("tank");
     clearScene();
     selected_tank.head.mesh.forEach(function(entry) {
         //console.log("head obj: ", entry);
@@ -304,6 +327,9 @@ if (selected_tank.head.textures.hasOwnProperty(c)) {
 head_texture(textr);
 //selected_tank=json_full.Tanks["Dicker Max"];
 add_tank();
+
+
+
 
 var animate = function() {
     requestAnimationFrame(animate);
