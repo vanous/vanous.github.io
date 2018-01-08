@@ -151,9 +151,9 @@ function tracks(_file) {
     });
 };
 
-function hit(){}
+function ahit(){}
 
-function ahit(key){
+function hit(key){
 
 var oReq = new XMLHttpRequest();  
 oReq.open("GET", "https://keyvalue.immanuel.co/api/KeyVal/GetValue/zu1czm0z/"+key, true);  
