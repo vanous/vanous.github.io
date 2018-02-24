@@ -56,7 +56,14 @@ There are number of commands here:<br>
 </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <!--    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
+
+	<script
+			  src="https://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			  crossorigin="anonymous"></script>	
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script>
@@ -65,15 +72,15 @@ var data=JSON.parse('{"AceHeroes": {"aceheroes": [{"post": ["Post: name damage t
     
     $.each(data, function(i, item){
         //console.log(item)
-        $("#accordion").append('  <div class="card">\
-        <div class="card-header" id="headingOne'+i+'">\
+        $("#accordion").append('  <div class="card" >\
+        <div class="card-header" id="headingOne'+i+'" data-toggle="collapse" data-target="#'+i+'" aria-expanded="true" aria-controls="'+i+'">\
       <h5 class="mb-0">\
-        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne'+i+'" aria-expanded="true" aria-controls="collapseOne'+i+'">\
+        <button class="btn btn-link" >\
           ' + i + '\
         </button>\
       </h5>\
     </div>\
-    <div id="collapseOne'+i+'" class="collapse" aria-labelledby="headingOne'+i+'" data-parent="#accordion">\
+    <div id="'+i+'" class="collapse" aria-labelledby="headingOne'+i+'" data-parent="#accordion">\
       <div class="card-body">\
             <ul id="card-'+i+'" class="list-group list-group-flush"> ')
             
@@ -104,7 +111,7 @@ var data=JSON.parse('{"AceHeroes": {"aceheroes": [{"post": ["Post: name damage t
             
                 //console.log("no indises: ", values[0], values[0].length, $.type(values[0]))
                 var ins="";
-                console.log(typeof values[1], values[1])
+                //console.log(typeof values[1], values[1])
                 if (typeof values[1] != 'undefined'){
                 if (values[1].length != 0){
                 
@@ -123,7 +130,17 @@ var data=JSON.parse('{"AceHeroes": {"aceheroes": [{"post": ["Post: name damage t
   </div>' );
     });
 
+if(window.location.hash)
+{
+    console.log("yes")
+    // hash found
+    var hash = window.location.hash.substring(0); //Puts hash in variable, and removes the # character
+    console.log(hash)
+    //alert (hash);
+    $(hash)[0].classList.toggle('show');
+    $('html,body').animate({scrollTop: $(hash).offset().top  }, 1000);
 
+}
 });
     </script>
   </body>
